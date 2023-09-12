@@ -87,6 +87,7 @@ img {
   padding-top: 155px;
 }
 
+
 .hero {
   background-image: url(../img/hero.png);
   width: 1431px;
@@ -213,7 +214,24 @@ img {
   gap: 150px;
 }
 
-.menu-item {
+.menu-item:nth-child(1){
+position: relative;
+}
+
+.menu-item:nth-child(2) {
+  position: relative;
+    width: 328px;
+      height: 229px; 
+      background-image: url(../img/menu-3.png), url(../img/pngwing.png), url(../img/menu-4.png);
+      background-repeat: no-repeat;
+      background-position: bottom 20px left 180px, bottom 0px right 50px, top -10px right 10px;
+      background-size: 155px, 272px, 230px;
+}
+
+.menu-box{
+    position: absolute;
+      bottom: -100px;
+      left: 90px;
 }
 
 .menu-list-img {
